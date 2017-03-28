@@ -12,6 +12,9 @@
 #define COLLECTION_VIEW_HEIGHT self.collectionView.frame.size.height// - 64 - 49
 #define SECTION_MARGIN_HEIGHT 10
 
+#define kECScreenWidth     [UIScreen mainScreen].bounds.size.width
+#define kECScreenHeight    [UIScreen mainScreen].bounds.size.height
+
 @interface WaterFlowLayout ()
 @property(nonatomic,strong)NSMutableDictionary *ColumnMaxY;
 @property (nonatomic, strong) NSMutableDictionary *rowMaxX;
