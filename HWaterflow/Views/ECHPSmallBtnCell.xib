@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SmallBtnCell" id="tiH-fa-Ffo" userLabel="SmallBtnsCell" customClass="ECHPSmallBtnCell">
+            <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AW3-PM-xbH">
+                        <rect key="frame" x="16" y="19" width="58" height="52"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hp_btn_homecases" translatesAutoresizingMaskIntoConstraints="NO" id="UGE-wZ-sro">
+                                <rect key="frame" x="15" y="0.0" width="28" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="28" id="A5f-rU-UOc"/>
+                                    <constraint firstAttribute="height" constant="28" id="rXc-Se-NiG"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="家庭档案" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QCY-3M-AHF">
+                                <rect key="frame" x="0.0" y="40" width="58" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="12" id="cUT-hx-vZI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UGE-wZ-sro" firstAttribute="centerX" secondItem="AW3-PM-xbH" secondAttribute="centerX" id="2jy-sZ-Xm0"/>
+                            <constraint firstItem="UGE-wZ-sro" firstAttribute="leading" secondItem="AW3-PM-xbH" secondAttribute="leading" id="AZa-Ds-C5h"/>
+                            <constraint firstAttribute="height" constant="52" id="Au0-a1-9dI"/>
+                            <constraint firstAttribute="bottom" secondItem="QCY-3M-AHF" secondAttribute="bottom" id="SEd-gu-ewu"/>
+                            <constraint firstAttribute="width" constant="58" id="VvY-dY-TaF"/>
+                            <constraint firstItem="QCY-3M-AHF" firstAttribute="leading" secondItem="AW3-PM-xbH" secondAttribute="leading" id="hlA-Nn-hgf"/>
+                            <constraint firstAttribute="trailing" secondItem="UGE-wZ-sro" secondAttribute="trailing" id="iIa-XT-BST"/>
+                            <constraint firstAttribute="trailing" secondItem="QCY-3M-AHF" secondAttribute="trailing" id="kPo-OU-yh1"/>
+                            <constraint firstItem="UGE-wZ-sro" firstAttribute="top" secondItem="AW3-PM-xbH" secondAttribute="top" id="nVT-dh-lVW"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornorRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="self.clipsToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="AZa-Ds-C5h"/>
+                                <exclude reference="iIa-XT-BST"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="AW3-PM-xbH" firstAttribute="centerY" secondItem="tiH-fa-Ffo" secondAttribute="centerY" id="hCx-mY-g3U"/>
+                <constraint firstItem="AW3-PM-xbH" firstAttribute="centerX" secondItem="tiH-fa-Ffo" secondAttribute="centerX" id="vF7-d7-zpP"/>
+            </constraints>
+            <size key="customSize" width="128" height="133"/>
+            <connections>
+                <outlet property="btnImageView" destination="UGE-wZ-sro" id="Lzt-Xp-tYW"/>
+                <outlet property="btnTitleLabel" destination="QCY-3M-AHF" id="c8D-o3-4kW"/>
+            </connections>
+            <point key="canvasLocation" x="178" y="274"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="hp_btn_homecases" width="112" height="112"/>
+    </resources>
+</document>

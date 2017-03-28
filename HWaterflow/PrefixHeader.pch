@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  HWaterflow
+//
+//  Created by yellowei on 17/3/28.
+//  Copyright © 2017年 yellowei. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#define kECScreenWidth     [UIScreen mainScreen].bounds.size.width
+#define kECScreenHeight    [UIScreen mainScreen].bounds.size.height
+
+#import <UIImageView+WebCache.h>
+
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ListDetailCell" id="DYG-ea-1EN" userLabel="SmallBtnsCell" customClass="ECHPListDetailCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hp_btn_advance" translatesAutoresizingMaskIntoConstraints="NO" id="Xzo-sK-AZc">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="gUX-ym-NNH"/>
+                            <constraint firstAttribute="width" constant="60" id="mj9-VV-khO"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5岁男童每天以可乐代水 14颗牙齿齐根烂掉" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CEz-Hc-8lQ">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="5d6-Dp-ecP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.14491982984293195" green="0.14491982984293195" blue="0.14491982984293195" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016/06/06  牙管家" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UDK-AY-N8I">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="200" id="YR0-La-dQi"/>
+                            <constraint firstAttribute="height" constant="9" id="dRI-k7-Hmi"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                        <color key="textColor" red="0.52805955497382207" green="0.52805955497382207" blue="0.52805955497382207" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="一个月前，5岁的崇阳男孩军军被妈妈带到彭友俭主任面前。孩子张开嘴时，彭主任惊呆了：这孩子看起来就像个无牙的小老头！" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p9L-4r-jjb">
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.34467032068062831" green="0.34467032068062831" blue="0.34467032068062831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="CEz-Hc-8lQ" firstAttribute="leading" secondItem="Xzo-sK-AZc" secondAttribute="trailing" constant="10" id="5gz-qH-alP"/>
+                <constraint firstItem="p9L-4r-jjb" firstAttribute="top" secondItem="UDK-AY-N8I" secondAttribute="bottom" constant="5" id="7ko-gf-4Zi"/>
+                <constraint firstItem="Xzo-sK-AZc" firstAttribute="leading" secondItem="DYG-ea-1EN" secondAttribute="leading" constant="10" id="Dsy-Gh-JDj"/>
+                <constraint firstItem="p9L-4r-jjb" firstAttribute="leading" secondItem="CEz-Hc-8lQ" secondAttribute="leading" id="FeO-lb-R2l"/>
+                <constraint firstItem="CEz-Hc-8lQ" firstAttribute="top" secondItem="DYG-ea-1EN" secondAttribute="top" constant="10" id="NMe-qh-2lD"/>
+                <constraint firstItem="UDK-AY-N8I" firstAttribute="top" secondItem="CEz-Hc-8lQ" secondAttribute="bottom" constant="6" id="T8f-Ab-lna"/>
+                <constraint firstAttribute="trailing" secondItem="CEz-Hc-8lQ" secondAttribute="trailing" constant="10" id="fbu-ui-2F0"/>
+                <constraint firstAttribute="trailing" secondItem="p9L-4r-jjb" secondAttribute="trailing" constant="15" id="gJG-cf-8ew"/>
+                <constraint firstAttribute="bottom" secondItem="p9L-4r-jjb" secondAttribute="bottom" constant="13" id="lVv-Rl-V07"/>
+                <constraint firstItem="UDK-AY-N8I" firstAttribute="leading" secondItem="CEz-Hc-8lQ" secondAttribute="leading" id="rDS-BU-yRA"/>
+                <constraint firstItem="Xzo-sK-AZc" firstAttribute="centerY" secondItem="DYG-ea-1EN" secondAttribute="centerY" id="ut9-rE-ShA"/>
+            </constraints>
+            <size key="customSize" width="128" height="133"/>
+            <connections>
+                <outlet property="contentLabel" destination="p9L-4r-jjb" id="tXY-N8-ra7"/>
+                <outlet property="dateLabel" destination="UDK-AY-N8I" id="js5-rw-ugl"/>
+                <outlet property="imgView" destination="Xzo-sK-AZc" id="0za-Nh-Jjm"/>
+                <outlet property="titleLabel" destination="CEz-Hc-8lQ" id="OeR-fX-Zfy"/>
+            </connections>
+            <point key="canvasLocation" x="264" y="178"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="hp_btn_advance" width="112" height="112"/>
+    </resources>
+</document>
