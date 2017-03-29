@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HWaterflow"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "This is a flow layout for UICollectionView."
 
   # This description is used to generate tags and improve search results.
@@ -85,7 +85,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/yellowei/HWaterflow.git", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/yellowei/HWaterflow.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
